@@ -32,6 +32,21 @@ cd moodle
 ```
 
 
+- https://github.com/danmarsden/moodle-mod_attendance/
+```bash
+git submodule add -b MOODLE_401_STABLE https://github.com/danmarsden/moodle-mod_attendance.git mod/attendance
+```
+
+- https://github.com/dthies/moodle-atto_cloze
+```bash
+git submodule add -b master https://github.com/dthies/moodle-atto_cloze.git lib/editor/atto/plugins/cloze
+```
+
+- https://github.com/FMCorz/moodle-block_xp
+```bash
+git submodule add -b master https://github.com/FMCorz/moodle-block_xp.git blocks/xp
+```
+
 
 
 
