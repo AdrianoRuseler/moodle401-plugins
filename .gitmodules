@@ -138,3 +138,7 @@
 	path = moodle/report/allbackups
 	url = https://github.com/catalyst/moodle-report_allbackups.git
 	branch = MOODLE_400_STABLE
+[submodule "moodle/mod/jitsi"]
+	path = moodle/mod/jitsi
+	url = https://github.com/udima-university/moodle-mod_jitsi.git
+	branch = master
