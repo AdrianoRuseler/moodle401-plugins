@@ -134,3 +134,7 @@
 	path = moodle/mod/coursecertificate
 	url = https://github.com/moodleworkplace/moodle-mod_coursecertificate.git
 	branch = master
+[submodule "moodle/report/allbackups"]
+	path = moodle/report/allbackups
+	url = https://github.com/catalyst/moodle-report_allbackups.git
+	branch = MOODLE_400_STABLE
