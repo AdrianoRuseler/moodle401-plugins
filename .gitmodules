@@ -122,3 +122,7 @@
 	path = moodle/local/sandbox
 	url = https://github.com/moodleuulm/moodle-local_sandbox.git
 	branch = master
+[submodule "moodle/admin/tool/coursearchiver"]
+	path = moodle/admin/tool/coursearchiver
+	url = https://github.com/Syxton/moodle-tool_coursearchiver.git
+	branch = master
