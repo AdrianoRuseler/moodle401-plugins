@@ -174,3 +174,7 @@
 	path = moodle/course/format/tiles
 	url = https://bitbucket.org/dw8/moodle-format_tiles.git
 	branch = moodle40
+[submodule "moodle/course/format/etask"]
+	path = moodle/course/format/etask
+	url = https://gitlab.com/drlikm/format_etask.git
+	branch = master
