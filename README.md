@@ -98,6 +98,13 @@ git submodule add -b master https://github.com/moodleworkplace/moodle-mod_course
 git submodule add -b master https://github.com/udima-university/moodle-mod_jitsi.git mod/jitsi
 ```
 
+- https://github.com/h5p/h5p-moodle-plugin
+```bash
+git submodule add -b stable https://github.com/h5p/h5p-moodle-plugin.git mod/hvp
+cd mod/hvp
+git submodule update --init
+```
+
 ### ATTO
 - https://github.com/dthies/moodle-atto_cloze
 ```bash
@@ -220,11 +227,87 @@ git submodule add -b master https://github.com/Syxton/moodle-tool_coursearchiver
 git submodule add -b master https://github.com/moodleworkplace/moodle-tool_certificate.git admin/tool/certificate
 ```
 
+- https://github.com/moodlehq/moodle-tool_migratehvp2h5p
+```bash
+git submodule add -b master https://github.com/moodlehq/moodle-tool_migratehvp2h5p.git admin/tool/migratehvp2h5p
+```
+
+
+### ENROL
+
+- https://github.com/bobopinna/moodle-enrol_autoenrol
+```bash
+git submodule add -b master https://github.com/bobopinna/moodle-enrol_autoenrol.git enrol/autoenrol
+```
 
 
 
+### PLAGIARISM
 
-## Remove
+- https://github.com/turnitin/moodle-plagiarism_turnitin
+```bash
+git submodule add -b master https://github.com/turnitin/moodle-plagiarism_turnitin.git plagiarism/turnitin
+```
+
+- https://github.com/turnitin/moodle-plagiarism_turnitinsim
+
+```bash
+git submodule add -b develop https://github.com/turnitin/moodle-plagiarism_turnitinsim.git plagiarism/turnitinsim
+```
+
+### FORMAT
+
+- https://github.com/DigiDago/moodle-format_softcourse
+```bash
+git submodule add -b MOODLE_400_STABLE https://github.com/DigiDago/moodle-format_softcourse.git course/format/softcourse
+```
+
+- https://github.com/cellule-tice/moodle-format_collapsibletopics
+```bash
+git submodule add -b moodle311 https://github.com/cellule-tice/moodle-format_collapsibletopics.git course/format/collapsibletopics
+```
+
+- https://bitbucket.org/dw8/moodle-format_tiles
+```bash
+git submodule add -b moodle40 https://bitbucket.org/dw8/moodle-format_tiles.git course/format/tiles
+```
+
+- https://gitlab.com/drlikm/format_etask
+```bash
+git submodule add -b master https://gitlab.com/drlikm/format_etask.git course/format/etask
+```
+
+- https://github.com/moodleworkplace/moodle-format_wplist
+```bash
+git submodule add -b master https://github.com/moodleworkplace/moodle-format_wplist.git course/format/wplist
+```
+
+
+
+### THEME - NOT
+
+- https://gitlab.com/jezhops/moodle-theme_adaptable
+```bash
+git submodule add -b master https://gitlab.com/jezhops/moodle-theme_adaptable.git theme/adaptable
+```
+
+
+
+## REMOVED:
+
+- https://github.com/bynare/moodle-enrol_auto
+```bash
+git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/auto
+```
+
+## Git commands
+
+```bash
+git submodule add -b branch https://urltoplugin.git path/to/submodule
+git add .
+git commit -m "Some update info here..."
+git push
+```
 
 ```bash
 SUBMPATH="moodle/path/to/submodule"
@@ -235,11 +318,6 @@ rm -rf .git/modules/$SUBMPATH
 git push
 ```
 
-```bash
-git submodule add -b branch https://urltoplugin.git path/to/submodule
-git add .
-git commit -m "Some update info here..."
-git push
-```
+
 
 
