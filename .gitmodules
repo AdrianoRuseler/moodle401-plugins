@@ -142,3 +142,7 @@
 	path = moodle/mod/jitsi
 	url = https://github.com/udima-university/moodle-mod_jitsi.git
 	branch = master
+[submodule "moodle/enrol/autoenrol"]
+	path = moodle/enrol/autoenrol
+	url = https://github.com/bobopinna/moodle-enrol_autoenrol.git
+	branch = master
