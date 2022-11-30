@@ -166,3 +166,7 @@
 	path = moodle/course/format/softcourse
 	url = https://github.com/DigiDago/moodle-format_softcourse.git
 	branch = MOODLE_400_STABLE
+[submodule "moodle/course/format/collapsibletopics"]
+	path = moodle/course/format/collapsibletopics
+	url = https://github.com/cellule-tice/moodle-format_collapsibletopics.git
+	branch = moodle311
