@@ -182,3 +182,7 @@
 	path = moodle/course/format/wplist
 	url = https://github.com/moodleworkplace/moodle-format_wplist.git
 	branch = master
+[submodule "moodle/mod/book/tool/wordimport"]
+	path = moodle/mod/book/tool/wordimport
+	url = https://github.com/ecampbell/moodle-booktool_wordimport.git
+	branch = master

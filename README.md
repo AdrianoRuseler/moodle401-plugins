@@ -105,6 +105,11 @@ cd mod/hvp
 git submodule update --init
 ```
 
+- https://github.com/ecampbell/moodle-booktool_wordimport
+```bash
+git submodule add -b master https://github.com/ecampbell/moodle-booktool_wordimport.git mod/book/tool/wordimport
+```
+
 ### ATTO
 - https://github.com/dthies/moodle-atto_cloze
 ```bash
