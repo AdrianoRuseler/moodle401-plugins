@@ -184,6 +184,15 @@ git submodule add -b master https://github.com/trampgeek/moodle-qbehaviour_adapt
 git submodule add -b master https://github.com/trampgeek/moodle-qtype_coderunner.git question/type/coderunner
 ```
 
+- https://github.com/moodleou/moodle-qtype_pmatch
+- https://github.com/moodleou/moodle-qtype_varnumunit
+```bash
+git submodule add -b main https://github.com/moodleou/moodle-qtype_pmatch.git question/type/pmatch
+git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumericset.git question/type/varnumericset
+git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumeric.git question/type/varnumeric
+git submodule add -b main https://github.com/moodleou/moodle-editor_ousupsub.git lib/editor/ousupsub
+```
+
 ### REPORT
 - https://github.com/catalyst/moodle-report_coursesize
 ```bash
