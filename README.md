@@ -190,6 +190,7 @@ git submodule add -b master https://github.com/trampgeek/moodle-qtype_coderunner
 git submodule add -b main https://github.com/moodleou/moodle-qtype_pmatch.git question/type/pmatch
 git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumericset.git question/type/varnumericset
 git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumeric.git question/type/varnumeric
+git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumunit.git question/type/varnumunit
 git submodule add -b main https://github.com/moodleou/moodle-editor_ousupsub.git lib/editor/ousupsub
 ```
 
