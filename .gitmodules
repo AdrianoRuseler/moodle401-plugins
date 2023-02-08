@@ -206,3 +206,7 @@
 	path = moodle/question/type/varnumunit
 	url = https://github.com/moodleou/moodle-qtype_varnumunit.git
 	branch = main
+[submodule "moodle/enrol/auto"]
+	path = moodle/enrol/auto
+	url = https://github.com/bynare/moodle-enrol_auto.git
+	branch = main
