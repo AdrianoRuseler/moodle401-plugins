@@ -210,3 +210,7 @@
 	path = moodle/enrol/auto
 	url = https://github.com/bynare/moodle-enrol_auto.git
 	branch = main
+[submodule "moodle/report/customsql"]
+	path = moodle/report/customsql
+	url = https://github.com/moodleou/moodle-report_customsql.git
+	branch = main
