@@ -193,7 +193,10 @@ git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumeric.gi
 git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumunit.git question/type/varnumunit
 git submodule add -b main https://github.com/moodleou/moodle-editor_ousupsub.git lib/editor/ousupsub
 ```
-
+- https://github.com/vtos/moodle-mod_adaptivequiz
+```bash
+git submodule add -b MOODLE_400 https://github.com/vtos/moodle-mod_adaptivequiz.git mod/adaptivequiz
+```
 ### REPORT
 - https://github.com/catalyst/moodle-report_coursesize
 ```bash
