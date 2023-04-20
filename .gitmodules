@@ -218,3 +218,7 @@
 	path = moodle/theme/boost_union
 	url = https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git
 	branch = MOODLE_401_STABLE
+[submodule "moodle/mod/adaptivequiz"]
+	path = moodle/mod/adaptivequiz
+	url = https://github.com/vtos/moodle-mod_adaptivequiz.git
+	branch = MOODLE_400
