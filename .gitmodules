@@ -154,10 +154,6 @@
 	path = moodle/course/format/collapsibletopics
 	url = https://github.com/cellule-tice/moodle-format_collapsibletopics.git
 	branch = moodle311
-[submodule "moodle/course/format/tiles"]
-	path = moodle/course/format/tiles
-	url = https://bitbucket.org/dw8/moodle-format_tiles.git
-	branch = moodle40
 [submodule "moodle/course/format/etask"]
 	path = moodle/course/format/etask
 	url = https://gitlab.com/drlikm/format_etask.git
