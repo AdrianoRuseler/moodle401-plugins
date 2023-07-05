@@ -222,3 +222,7 @@
 	path = moodle/course/format/tiles
 	url = https://bitbucket.org/dw8/moodle-format_tiles.git
 	branch = master
+[submodule "moodle/mod/quiz/report/group"]
+	path = moodle/mod/quiz/report/group
+	url = https://gitlab.unige.ch/eLearning/moodle/moodle-quiz_group.git
+	branch = master
