@@ -110,6 +110,10 @@ git submodule update --init
 git submodule add -b master https://github.com/ecampbell/moodle-booktool_wordimport.git mod/book/tool/wordimport
 ```
 
+- https://github.com/remotelearner/moodle-block_grade_me
+```bash
+git submodule add -b MOODLE_401_STABLE https://github.com/remotelearner/moodle-block_grade_me.git blocks/grade_me
+```
 ### ATTO
 - https://github.com/dthies/moodle-atto_cloze
 ```bash
