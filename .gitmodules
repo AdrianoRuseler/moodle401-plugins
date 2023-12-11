@@ -74,10 +74,6 @@
 	path = moodle/blocks/dedication
 	url = https://github.com/catalyst/moodle-block_dedication.git
 	branch = MOODLE_400_STABLE
-[submodule "moodle/mod/subcourse"]
-	path = moodle/mod/subcourse
-	url = https://github.com/mudrd8mz/moodle-mod_subcourse.git
-	branch = main
 [submodule "moodle/question/behaviour/adaptive_adapted_for_coderunner"]
 	path = moodle/question/behaviour/adaptive_adapted_for_coderunner
 	url = https://github.com/trampgeek/moodle-qbehaviour_adaptive_adapted_for_coderunner.git
