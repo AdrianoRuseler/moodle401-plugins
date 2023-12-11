@@ -230,3 +230,7 @@
 	path = moodle/mod/subcourse
 	url = https://github.com/mudrd8mz/moodle-mod_subcourse.git
 	branch = MOODLE_401_STABLE
+[submodule "moodle/theme/adaptable"]
+	path = moodle/theme/adaptable
+	url = https://github.com/gjbarnard/moodle-theme_adaptable.git
+	branch = MOODLE_401
