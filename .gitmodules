@@ -226,3 +226,7 @@
 	path = moodle/report/coursesize
 	url = https://github.com/catalyst/moodle-report_coursesize.git
 	branch = MOODLE_401_STABLE
+[submodule "moodle/mod/attendance"]
+	path = moodle/mod/attendance
+	url = https://github.com/danmarsden/moodle-mod_attendance.git
+	branch = MOODLE_401_STABLE
