@@ -204,7 +204,7 @@ git submodule add -b MOODLE_400 https://github.com/vtos/moodle-mod_adaptivequiz.
 ### REPORT
 - https://github.com/catalyst/moodle-report_coursesize
 ```bash
-git submodule add -b MOODLE_39_STABLE https://github.com/catalyst/moodle-report_coursesize.git report/coursesize
+git submodule add -b MOODLE_401_STABLE https://github.com/catalyst/moodle-report_coursesize.git report/coursesize
 ```
 
 - https://github.com/mikasmart/moodle-report_benchmark
